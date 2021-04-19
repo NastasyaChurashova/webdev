@@ -31,9 +31,15 @@ svg {
   text-align: right;
   margin: 25px 85px 25px;
   vertical-align: middle;
+  opacity: 0.8;
 }
 
 .top-menu a:hover {
+  text-decoration: underline;
+}
+
+#about_link {
+  opacity: 1;
   text-decoration: underline;
 }
 
@@ -257,6 +263,11 @@ input {
   box-sizing: border-box;
 }
 
+.input-name:focus {
+  outline-color: #0f449f;
+  border-color: #0f449f;
+}
+
 input:focus {
   outline: none;
   border-color: #76a9ff;
@@ -307,6 +318,12 @@ input:focus {
 .download_buttons svg {
   padding-left: 3px;
   margin: 0;
+  opacity: 1;
+}
+
+.apple_store:hover,
+.play_market:hover {
+  stroke: purple;
 }
 
 /* FOOTER */
