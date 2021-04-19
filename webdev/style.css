@@ -178,6 +178,19 @@ button:hover {
   box-sizing: border-box;
 }
 
+.right_code {
+  width: 407px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right_code p {
+  color: #000000;
+  text-align: left;
+}
+
 /*4th block: sign-up_form */
 .sign-up_form {
   background: url(images/sign-up_bg.png);
