@@ -87,11 +87,45 @@ button:hover {
   color: white;
 }
 
+.social_images svg {
+  margin: 30px;
+}
+/*2nd block: RAPPRESENT */
+.rappresent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 842px;
+  padding: 0 269px;
+}
+
+.rappresent h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  color: #000000;
+  margin-top: 295px;
+  margin-bottom: 20px;
+}
+
+.rappresent p {
+  color: #000000;
+  text-align: left;
+  margin-bottom: 30px;
+  width: 407px;
+}
+
 .smart-design {
   background: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.smart-design img {
+  height: 582px;
+  width: 407px;
+  margin: 120px 240px 140px 0px;
 }
 
 /*3d block: COMMUNITY */
