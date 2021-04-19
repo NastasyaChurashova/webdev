@@ -284,3 +284,40 @@ input:focus {
   padding-left: 3px;
   margin: 0;
 }
+
+/* FOOTER */
+footer {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  color: #4e4e4e;
+  max-width: 1600px;
+  height: 185px;
+  padding: 0 160px;
+  box-sizing: border-box;
+}
+
+footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  margin-right: 19px;
+  margin-left: 19px;
+}
+
+.line {
+  background: #4e4e4e;
+  padding: 0.0625em;
+  height: 0;
+  width: 8px;
+  margin: 0 0.3125em;
+}
+
+h3 {
+  text-align: center;
+  color: #818181;
+  font-size: 14px;
+  font-weight: 400;
+}
