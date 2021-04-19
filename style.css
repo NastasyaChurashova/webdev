@@ -1,13 +1,14 @@
 body {
     background-color: #e5e5e5;
     font-family: "Roboto";
-  }
+}
 
 main,
 section {
   width: 1600px;
   margin: auto;
 }
+
 /*1st block: YOUR LIFE */
 header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
@@ -18,11 +19,23 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 788px;
-  }
+}
+
+.top-menu a,
+svg {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    text-align: right;
+    margin: 25px 85px 25px;
+    vertical-align: middle;
+}
 
 nav {
     text-align: center;
-  }
+}
 
 .smart-design {
     background: #ffffff;
