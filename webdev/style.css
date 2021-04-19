@@ -15,7 +15,7 @@ header {
 }
 
 .your_life {
-  background: url(images/bg-image.png);
+  background: url(assets/images/bg-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 788px;
@@ -83,13 +83,14 @@ button {
 }
 
 button:hover {
-  background: #4f5557;
+  background: #009cc2;
   color: white;
 }
 
 .social_images svg {
   margin: 30px;
 }
+
 /*2nd block: RAPPRESENT */
 .rappresent {
   display: flex;
@@ -139,6 +140,23 @@ button:hover {
   background: #f5f6f7;
   color: #000000;
   box-sizing: border-box;
+}
+
+#slider {
+  align-self: flex-start;
+  position: relative;
+  margin: 81px 20px 17px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  stroke: #00000081;
+}
+
+.community_images {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
 }
 
 .info {
@@ -193,7 +211,7 @@ button:hover {
 
 /*4th block: sign-up_form */
 .sign-up_form {
-  background: url(images/sign-up_bg.png);
+  background: url(assets/images/sign-up_bg.png);
   height: 524px;
   align-items: center;
 }
@@ -280,6 +298,7 @@ input:focus {
   box-sizing: border-box;
   border: none;
 }
+
 .download_buttons svg {
   padding-left: 3px;
   margin: 0;
