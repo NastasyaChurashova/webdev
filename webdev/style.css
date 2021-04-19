@@ -198,6 +198,54 @@ button:hover {
   align-items: center;
 }
 
+.newsletter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sign-up {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+input {
+  display: flex;
+  width: 406px;
+  height: 46px;
+  background: #ffffff;
+  color: #373737;
+  text-align: left;
+  padding-left: 24px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+.input-name::placeholder {
+  color: #76a9ff;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #76a9ff;
+}
+
+.check-icon {
+  position: relative;
+  height: 46px;
+  top: -71px;
+  right: -170px;
+}
+
 /*5th block: sign-up_form */
 
 .download_app {
