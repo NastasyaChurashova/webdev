@@ -141,6 +141,32 @@ button:hover {
   box-sizing: border-box;
 }
 
+.info {
+  width: 298px;
+  height: 175px;
+  padding: 120px 0 150px 269px;
+  text-align: center;
+}
+
+.info p {
+  color: #4e4e4e;
+  line-height: 19.6px;
+  width: 298px;
+  font-size: 14px;
+}
+
+.info h3 {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2.4px;
+  line-height: 20px;
+  color: #373737;
+}
+
+.info img {
+  margin: auto;
+}
+
 .implement {
   display: flex;
   flex-direction: row;
