@@ -33,6 +33,10 @@ svg {
   vertical-align: middle;
 }
 
+.top-menu a:hover {
+  text-decoration: underline;
+}
+
 nav {
   text-align: center;
 }
@@ -110,7 +114,8 @@ button:hover {
 }
 
 .rappresent p {
-  color: #000000;
+  font-size: 14px;
+  color: #4e4e4e;
   text-align: left;
   margin-bottom: 30px;
   width: 407px;
