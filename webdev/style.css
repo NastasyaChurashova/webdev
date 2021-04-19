@@ -101,6 +101,10 @@ button:hover {
   margin: 30px;
 }
 
+.social_images:hover {
+  stroke: rebeccapurple;
+}
+
 /*2nd block: RAPPRESENT */
 .rappresent {
   display: flex;
@@ -156,7 +160,7 @@ button:hover {
 #slider {
   align-self: flex-start;
   position: relative;
-  margin: 81px 20px 17px 460px;;
+  margin: 81px 20px 17px 460px;
 }
 
 .arrow-left:hover,
