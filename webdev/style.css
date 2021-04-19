@@ -156,7 +156,7 @@ button:hover {
 #slider {
   align-self: flex-start;
   position: relative;
-  margin: 81px 20px 17px;
+  margin: 81px 20px 17px 460px;;
 }
 
 .arrow-left:hover,
@@ -338,6 +338,10 @@ footer {
   height: 185px;
   padding: 0 160px;
   box-sizing: border-box;
+}
+
+.bottom-menu a:hover {
+  text-decoration: underline;
 }
 
 footer a {
