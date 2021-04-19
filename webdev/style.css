@@ -257,3 +257,30 @@ input:focus {
   background: #f5f6f7;
   box-sizing: border-box;
 }
+
+.download_app p {
+  width: 480px;
+  font-size: 14px;
+  color: #4e4e4e;
+  text-align: center;
+}
+
+.download_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.download_buttons button {
+  font-size: 14px;
+  width: 186px;
+  padding: 0;
+  padding-left: 24px;
+  box-sizing: border-box;
+  border: none;
+}
+.download_buttons svg {
+  padding-left: 3px;
+  margin: 0;
+}
